@@ -1,20 +1,42 @@
 /* Getting Started */
 
 body {
-    color: blue;
-    background: purple;
-    border: thin dotted yellow;
-    width: 600px;
-    
+    color: rgb(14, 14, 230);
+    background: rgb(219, 190, 219);
+    max-width: 600px;
+    padding: 15px;
+    margin: 16px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1 {
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 50px;
 }
 
 ul {
-    background-color: aqua;
+    /* background-color: aqua; */
     line-height: 32px;
+    list-style: none;
+    max-width: 220px;
+    margin: 0 auto;
+    padding: 8px;
     text-align: center;
+}
+
+ul li {
+    margin: 10px 0;
+    background-color: aquamarine;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li:hover {
+    background-color: rgb(58, 2, 2);
+    color:rgb(87, 245, 113);
+    box-shadow: 6px 6px 3px rgb(31, 25, 25);
 }
